@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sfondo-head { 
+    background-color: #007fff;
+    width: 100%;
+    height: 200px;  
+}
+.sfondo-head-pattern {
+    width: 250px; 
+    height: 200px;   
+    background-repeat: repeat-x;
+}
+.text-blue{
+    color: #007fff;
+}
+
+h5{
+    font-style: italic;
+   
+}
+.presentazione{
+    margin-left: 10px;
+}
+.img-presentazione {
+    margin-top: 20px;
+    margin-left: 5px;
+
+}
+.info-foto{
+    font-size: 15px;
+    font-style: italic;
+    margin-left: 5px;
+    margin-top: 0;
+}
+.testo-evidenziato{
+    margin-left:  5px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+ul{
+    margin-left: 20px;
+}
