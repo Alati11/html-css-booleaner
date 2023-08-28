@@ -44,3 +44,15 @@ h5{
 ul{
     margin-left: 20px;
 }
+
+.tabella        {
+    margin-left: 15px;
+    margin-top: 20px;
+    width: 1400px;
+    height: 200px;
+}
+
+.riga-1{
+    width: 30px;
+    height: 20px;
+}
