@@ -51,10 +51,11 @@ ul{
     border-spacing: 0; 
 }
 
-.riga-1{  
+ .riga-1{   
     width: 100px;
-    height: 100px;
-}
+    height: 20px;
+ }   
+
 .intestazione-tabella{
     background-color:  #4b98e5;
     color: white;
@@ -78,5 +79,5 @@ ul{
 .img-footer{
     margin-top: 20px;
     margin-left: 10px;
-            
+
 }
