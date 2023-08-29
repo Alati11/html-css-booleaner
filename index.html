@@ -7,12 +7,10 @@
     <title>The Booleaner</title>
 </head>
 <body>
-    <head>
-        <div class="sfondo-head">
-            <img class="sfondo-head-pattern" src="./img/pattern.png" alt="">
-            
-        </div>         
-    </head>
+    <header class="page-header">
+        <img class="logo" src="./img/logo.svg" alt="Booleaner" />
+                
+    </header>
 
     <main>
 
@@ -21,7 +19,9 @@
             <h1>
                 Internet deve essere al servizio del "bene pubblico": il <br>manifesto di Tim Berners-Lee
             </h1>
-            <h2>Scritto da <span style="color: aqua;">The Booleaner</span></h2>
+            <address class="article-author">
+                Scritto da <span>The Booleaner</span>
+            </address>
             <h5>il 10/10/20</h5>
         </div>
 
@@ -37,7 +37,7 @@
         <div>
             <p class="testo-evidenziato">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quaerat blanditiis assumenda hic, modi voluptas eligendi repellendus nostrum unde, esse tempore deserunt animi dolorem ad autem ab officiis voluptates commodi?
-                <span style="background-color:yellow;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error eligendi molestias cupiditate quaerat sunt sequi, quis voluptate, doloremque animi sed non ipsam ratione natus voluptatem distinctio dignissimos ea blanditiis sapiente?</span>
+                <mark>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error eligendi molestias cupiditate quaerat sunt sequi, quis voluptate, doloremque animi sed non ipsam ratione natus voluptatem distinctio dignissimos ea blanditiis sapiente?</mark>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio deleniti dignissimos, eaque cumque aliquid ab atque fuga debitis sapiente dolores delectus accusamus? Rem asperiores nostrum deserunt placeat maxime. Consequatur, quibusdam?
             </p>
         </div>
@@ -89,20 +89,26 @@
         </div>
     </main>
 
-        <!-- foto footer -->
-    <footer>
-        <div class="text-footer">
-            <h3>Potrebbero interessarti</h3>
-            <img src="./img/monitor.jpg" alt="">
-
-        </div>
-        <div>
-            <p style="background-image:url(./img/graph.jpg)>
-                Lorem ipsum dolor
-            </p>
-            
-        </div>
-    </footer>   
+        <!-- foto articolo -->
+    
+		<aside>
+			<h4>Potrebbero interessarti</h4>
+			<ul class="related-articles">
+				<li>
+					<article
+						style="background-image: url('./img/monitor.jpg')"
+						class="article-card bg-monitor"
+					>
+						<h3>lorem ipsum dolor</h3>
+					</article>
+				</li>
+				<li>
+					<article class="article-card bg-graph">
+						<h3>lorem ipsum dolor</h3>
+					</article>
+				</li>
+			</ul>
+		</aside>  
     
 </body>
 </html>
