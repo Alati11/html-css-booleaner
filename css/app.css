@@ -45,14 +45,38 @@ ul{
     margin-left: 20px;
 }
 
-.tabella        {
+.tabella {
     margin-left: 15px;
     margin-top: 20px;
-    width: 1400px;
-    height: 200px;
+    border-spacing: 0; 
 }
 
-.riga-1{
-    width: 30px;
-    height: 20px;
+.riga-1{  
+    width: 100px;
+    height: 100px;
+}
+.intestazione-tabella{
+    background-color:  #4b98e5;
+    color: white;
+    width: 5%;
+}
+
+.riga-azzurra{
+    background-color: #72bcea ;
+}
+
+.paragrafo-main {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.text-footer {
+    margin-top: 20px;
+    margin-left: 10px;
+    color: gray;
+}   
+
+.img-footer{
+    margin-top: 20px;
+    margin-left: 10px;
+            
 }
